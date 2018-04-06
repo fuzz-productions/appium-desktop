@@ -1,6 +1,6 @@
 {
   "name": "appium-desktop",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "description": "Graphical interface for the Appium server, and an app inspector",
   "repository": {
     "type": "git",
@@ -125,7 +125,7 @@
     "teen_process": "^1.11.0",
     "temp": "0.x",
     "uuid": "3.x",
-    "wd": "^1.5.0",
+    "wd": "^1.6.0",
     "xpath": "0.0.24"
   },
   "devDependencies": {
