@@ -59,6 +59,14 @@ export default class Inspector extends Component {
           </Spin>
         }
       </div>
+      <div id='downloadSource'
+           className={`${InspectorStyles['source-tree-container']} ${InspectorStyles['element-detail-container']}`}>
+        <Card title="XPath Viewer" type="file-text" className={InspectorStyles['source-tree-card']}>
+          <div>
+            {this.props.sourceXML}
+          </div>
+        </Card>
+      </div>
       <div id='sourceTreeContainer' className={InspectorStyles['source-tree-container']} ref={(div) => this.container = div} >
         {showRecord &&
           <RecordedActions {...this.props} />

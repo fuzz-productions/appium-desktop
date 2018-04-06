@@ -283,3 +283,8 @@
  .action-controls {
     margin-right: 20px;
  }
+ .xpath-scroller {
+     overflow-y: scroll;
+     flex-grow: 1;
+     padding-top: 16px;
+ }
