@@ -1,3 +1,17 @@
+## [1.6.2](https://github.com/appium/appium-desktop/compare/v1.6.2...v1.6.1) (2018-06-08)
+
+### Changes
+* Feature: Upgrade to Appium 1.8.1
+* Fix: Use absolute coordinates for 'swipe'
+
+## [1.6.1](https://github.com/appium/appium-desktop/compare/v1.6.1...v1.5.0) (2018-05-08)
+
+### Changes
+* Feature: Upgrade to Appium 1.8.0
+* Feature: Upgrade Electron to 2.0.0
+* Feature: Add internal session keep-alive (#509)
+* Feature: Add BrowserStack as a cloud provider
+
 ## [1.5.0](https://github.com/appium/appium-desktop/compare/v1.4.1...v1.5.0) (2018-04-02)
 
 ### Changes
